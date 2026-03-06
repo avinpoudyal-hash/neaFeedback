@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="simulator.css">
+</head>
+<body>
+    <h1> Slope Simulation </h1>
+    <button id="Quit_Button"> Home </button>
+    <button id="Pause"> Pause/Unpause </button>
+    <button id="Draw"> Draw! </button>
+    <p id="SpeedUpdate">X Speed: <span id="SpeedValue">0</span></p>
+    <p id="YSpeedUpdate">Y Speed: <span id="YSpeedValue">0</span></p>
+    <a href="Graph.html">
+        <button id="GraphButton"> Show Graph </button>
+    </a>
+    <p id="FrictionTag"> Frictional Coefficient: <span id="FrictionValue"></span></p>
+    <input type="range" id="FrictionSlider" min="0" max="1" step="0.1" value="FrictionValue">
+    <button onclick="location.reload()" id="resetButton"> Reset Simulation </button>
+    <button id="signOut"> Sign Out </button>
+    <canvas id="TestScreen"></canvas>
+    <script src="SlopeCalcs.js"></script>
+    <script src="nea.js"></script>
+    
+</body>
+</html>

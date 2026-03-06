@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph Page</title>
+    <link rel="stylesheet" href="simulator.css">
+</head>
+<body>
+    <h1> Graph of X Position over Time </h1>
+    <button id="Quit_Button"> Home </button>
+    <button id="Back_Button"> Back to Simulation </button>
+    <canvas id="GraphCanvas"></canvas>
+    <input type="checkbox" id="pastGraphs1">
+    <input type="checkbox" id="pastGraphs2">
+    <input type="checkbox" id="pastGraphs3">
+    <input type="checkbox" id="pastGraphs4">
+    <input type="checkbox" id="pastGraphs5">
+    <div id="graphSeconds_1"> 1 </div>
+    <div id="graphSeconds_2"> 2 </div>
+    <div id="graphSeconds_3"> 3 </div>
+    <div id="graphSeconds_4"> 4 </div>
+    <div id="graphSeconds_5"> 5 </div>
+    <div id="secondsTag"> Seconds (s) </div>
+    <div id="speed1" > 5 </div>
+    <div id="speed2" > 10 </div>
+    <div id="speed3" > 15 </div>
+    <div id="speed4" > 20 </div>
+    <div id="speed5" > 25 </div>
+    <div id="speed6" > 30 </div>
+    <div id="speed7" > 35 </div>
+    <div id="speed8" > 40 </div>
+
+    <div id="speed0" > 0 </div>
+    <div id="speedKey" > Shades of red: Horizontal Speed </div>
+    <div id="gravityKey" > Shades of blue: Vertical Speed (if applicable) </div>
+
+    <div id="speed-1" > -5 </div>
+    <div id="speed-2" > -10 </div>
+    <div id="speed-3" > -15 </div>
+    <div id="speed-4" > -20 </div>
+    <div id="speed-5" > -25 </div>
+    <div id="speed-6" > -30 </div>
+    <div id="speed-7" > -35 </div>
+    <div id="speed-8" > -40 </div>
+
+    <div id="speedTag" > Speed (m/s) </div>
+    <div id="Saved1Tag" > Saved Graph 1 </div>
+    <div id="Saved2Tag" > Saved Graph 2 </div>
+    <div id="Saved3Tag" > Saved Graph 3 </div>
+    <div id="Saved4Tag" > Saved Graph 4 </div>
+    <div id="Saved5Tag" > Saved Graph 5 </div>
+    <script src="graph.js"></script>
+    <script src="nea.js"></script>
+</body>
+</html>

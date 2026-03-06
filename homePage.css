@@ -1,0 +1,73 @@
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: 50px;
+}
+
+#ProjButton {
+    background-color: rgb(0, 183, 255);
+    cursor: pointer;
+    border: solid black;
+    border-width: 1px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 24px;;
+    border-radius: 5px;
+}
+
+#ProjButton:hover {
+    background-color: rgb(0, 109, 153);
+}
+
+body {
+    overflow: hidden;
+}
+#Profile {
+    background-color: rgb(242, 255, 0);
+    cursor: pointer;
+    border: solid black;
+    border-width: 1px;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 24px;;
+    border-radius: 5px;
+}
+
+#Profile:hover {
+    background-color: rgb(129, 136, 0);
+}
+
+#Button_accel {
+    background-color: rgb(0, 255, 81);
+    cursor: pointer;
+    border: solid black;
+    border-width: 1px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 24px;;
+    border-radius: 5px;
+}
+
+#Button_accel:hover {
+    background-color: rgb(0, 148, 47);
+}
+
+#Slopes {
+    background-color: rgb(255, 0, 255);
+    cursor: pointer;
+    border: solid black;
+    border-width: 1px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 24px;;
+    border-radius: 5px;
+}
+
+#Slopes:hover {
+    background-color: rgb(129, 0, 129);
+}
